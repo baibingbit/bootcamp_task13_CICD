@@ -1,4 +1,4 @@
 [core]
     remote = localremote
 ['remote "localremote"']
-    url = ../../dvc-local-remote
+    url = C:\Users\baibi\Downloads\bootcamp_repo\Module4_ModelMonitoring
