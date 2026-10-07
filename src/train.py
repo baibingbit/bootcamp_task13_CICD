@@ -69,6 +69,7 @@ def train_model(df):
         "rmse_train": root_mean_squared_error(y_train, y_pred_train),
         "rmse_test": root_mean_squared_error(y_test, y_pred_test),
         "rows_after_filtering": len(df_processed),
+        "rows_before_filtering": len(df),
     }
     return pipeline, metrics
 
