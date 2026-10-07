@@ -116,6 +116,7 @@ def write_cml_metrics(metrics):
                 f"- RMSE on the train set: {metrics['rmse_train']:.4f}",
                 f"- RMSE on the test set: {metrics['rmse_test']:.4f}",
                 f"- Rows after filtering: {metrics['rows_after_filtering']}",
+                f"- Rows before filtering: {metrics['rows_before_filtering']}",
                 "",
             ]
         ),
